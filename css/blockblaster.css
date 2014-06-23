@@ -1,0 +1,98 @@
+body {
+    color: red;
+}
+#playground {
+    /*border: 1px solid deepskyblue;*/
+    /**/
+    width: 600px;
+    margin: 40px auto 0;
+}
+#playground h1 {
+    font-size: 18px;
+    color: #222;
+}
+#grid {
+    border: 2px solid #333;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    display: inline-block;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+    display: none;
+}
+#overlay > div {
+    margin: 150px auto 0;
+    width: 70%;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+#msg-game-over {
+    border: 1px solid red;
+    color: red;
+}
+#msg-paused {
+    border: 1px solid #aaa;
+    color: #666;
+}
+#msg-congratulations {
+    border: 1px solid green;
+    color: green;
+}
+#platform {
+    width: 100px;
+    height: 10px;
+    background: #333;
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+}
+#ball {
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    bottom: 15px;
+    left: 45%;
+    border-radius: 50%;
+}
+#controls {
+    /*border: 1px solid red;*/
+    /**/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    color: #444;
+}
+#controls h2 {
+    font-size: 19px;
+}
+#controls h3 {
+    font-size: 18px;
+}
+#instructions {
+    margin-top: 50px;
+    color: #888;
+    font-size: 90%;
+}
+#instructions ul {
+    padding: 0;
+    list-style: none;
+}
+.block {
+    border: 1px solid #555;
+    background: #666;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+}
